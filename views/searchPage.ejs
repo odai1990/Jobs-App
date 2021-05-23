@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>searchPage</title>
 <%- include('header') -%>
+<h1>Search</h1>
     <main>
-      <form action="/resultPage" method="get">
+      <form action="/resultPage" method="get" id="search">
+      
+        <label for="desc">Descrption</label>
     <input type="text" name="desc" id="desc">
     <input type="submit" value="Search">
     </form>

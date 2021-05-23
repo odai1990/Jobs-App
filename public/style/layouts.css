@@ -1,0 +1,6 @@
+body{
+    display: grid;
+    grid-template-rows: 10vh 100% 10vh;
+}
+
+

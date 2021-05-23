@@ -13,9 +13,10 @@
               <p><%=ele.title%></p>
               <p><%=ele.company%></p>
               <p><%=ele.location%></p>
-              <p><%=ele.url%></p>
+              <a href="<%=ele.url%>"><%=ele.url%></a>
               <p><%=ele.description%></p>
-              <form action="\updateJob\<%=ele.id%>?_method=put%>" method="post">
+              <button id="show">Update</button>
+              <form action="\updateJob\<%=ele.id%>?_method=put%>" method="post" id="update">
                 <input type="text" name="title" id="title" value='<%=ele.title%>'>
                 <input type="text" name="company" id="company" value='<%=ele.company%>'>
                 <input type="text" name="location" id="location" value='<%=ele.location%>'>

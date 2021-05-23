@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomwPage</title>
 <%- include('header') -%>
+<h1>All Jubs In USA</h1>
     <main>
+        
         <%data.map(ele=>{%>
             <div>
                 <div class='content'>
                     <p><%=ele.title%></p>
                     <p><%=ele.company%></p>
                     <p><%=ele.location%></p>
-                    <p><%=ele.url%></p>
+                    
+                        <a href="<%=ele.url%>"><%=ele.url%></a>
                 </div>
             </div>
             

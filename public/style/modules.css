@@ -1,0 +1,64 @@
+nav,ul
+{
+   
+    height: 100%;
+    background-color: blue;
+
+}
+
+ul
+{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    margin-left: 22px;
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main> div
+{
+    width:40%;
+    margin: 2%;
+    background-color: #c5c5e6;
+    border: 2px solid;
+}
+main .content ,main .content *
+{
+   padding:2%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+input{
+    height: 22px;
+   
+    border-radius: 7px;
+}
+input[type=submit],button{
+    background-color: black;
+    color: white;
+    height: 38px;
+}
+
+#search
+{
+    border: 2px solid;
+    padding: 2%;
+    margin: 8%;
+}
+
